@@ -1,0 +1,3943 @@
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list vms
+stdout: "WAF_pfSense" {723113a7-0d7b-49b4-9c28-4723ba948acb}
+"kali-linux-2024.2-virtualbox-amd64" {8fd2164a-bbcd-4f35-8d09-326ba8364f6d}
+"Wazuh v4.8.1 OVA" {62953e48-4247-4d59-8667-e1c5c28eece4}
+"Parrot OS Security Edition" {3a49bf1d-d0da-48f2-8a19-6f5c30c310c5}
+"KALI-FULL" {58e3a4a6-8a89-4d3c-97ea-5a27356635ab}
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo WAF_pfSense --details
+stdout: Name:                        WAF_pfSense
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    FreeBSD (64-bit)
+UUID:                        723113a7-0d7b-49b4-9c28-4723ba948acb
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Logs
+Hardware UUID:               723113a7-0d7b-49b4-9c28-4723ba948acb
+Memory size:                 4702MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      disabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   None
+State:                       powered off (since 2024-07-28T11:11:11.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             disabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 0, Unit 0: UUID: a571c986-3025-47b1-850c-82ce8f22b4d0
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_ pfSense .vdi"
+  Port 1, Unit 0: UUID: fa22be40-f633-42ef-aeb1-d34d60b8e07b
+    Location: "C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso"
+NIC 1:                       MAC: 08002772FE70, Attachment: Bridged Interface 'Intel(R) Wi-Fi 6 AX200 160MHz', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       MAC: 080027094FD8, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 3:                       MAC: 080027E39646, Attachment: Internal Network 'TTP_Zoo_LAN_ISOLATED', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 4:                       MAC: 080027A61EEF, Attachment: Internal Network 'TTP_Zoo_LAN_AD_LAB', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 5:                       MAC: 0800277E0FF9, Attachment: Internal Network 'TTP_Zoo_HOME_1', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: STAC9700)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo kali-linux-2024.2-virtualbox-amd64 --details
+stdout: Name:                        kali-linux-2024.2-virtualbox-amd64
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Logs
+Hardware UUID:               8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Memory size:                 2048MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              2
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:10:53.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: Empty
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6c53af52-8b7b-4ba5-bbd0-80f7313bd9d7
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vdi"
+NIC 1:                       MAC: 080027D22679, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Kali Rolling (2024.2) x64
+2024-05-27
+
+- - - - - - - - - - - - - - - - - -
+
+Username: kali
+Password: kali
+(US keyboard layout)
+
+- - - - - - - - - - - - - - - - - -
+
+* Kali Homepage:
+https://www.kali.org/
+
+* Kali Documentation:
+https://www.kali.org/docs/
+
+* Kali Tools:
+https://www.kali.org/tools/
+
+* Forum/Community Support:
+https://forums.kali.org/
+
+* Community Chat:
+https://discord.kali.org
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Wazuh v4.8.1 OVA" --details
+stdout: Name:                        Wazuh v4.8.1 OVA
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Linux 2.6 / 3.x / 4.x / 5.x (64-bit)
+UUID:                        62953e48-4247-4d59-8667-e1c5c28eece4
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Logs
+Hardware UUID:               62953e48-4247-4d59-8667-e1c5c28eece4
+Memory size:                 4096MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:11:04.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 9c96245b-c351-408f-9824-471ad6a36062
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\wazuh-4.8.1-disk-1.vdi"
+#1: 'Floppy', Type: I82078, Instance: 0, Ports: 1 (max 1), Bootable
+  Port 0, Unit 0: Empty
+NIC 1:                       MAC: 080027C20B85, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: STAC9700)
+Audio playback:              disabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    disabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Wazuh helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring.
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Parrot OS Security Edition" --details
+stdout: Name:                        Parrot OS Security Edition
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian 12 Bookworm (64-bit)
+UUID:                        3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Logs
+Hardware UUID:               3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    EFI
+Number of CPUs:              4
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           enabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T10:56:50.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6ad251a2-534e-4bae-b14c-46b6f132caee, non-rotational (SSD)
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot Security 6-disk001.vdi"
+NIC 1:                       MAC: 0800270CDFF7, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             Unknown
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo KALI-FULL --details
+stdout: Name:                        KALI-FULL
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Logs
+Hardware UUID:               58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              6
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-29T17:30:28.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 3313f467-e04e-46a7-ad7c-1b83ff03fdbd
+    Location: "C:\Users\kopec\Downloads\kali-linux-2024.2-installer-everything-amd64.iso"
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 3a7f8883-50cf-47bf-91e2-2dcbfeb96db2
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vdi"
+NIC 1:                       MAC: 0800278EE0D0, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list bridgedifs
+stdout: Name:            Intel(R) Wi-Fi 6 AX200 160MHz
+GUID:            af8f8359-f8d5-4982-b030-dd59d246d39e
+DHCP:            Enabled
+IPAddress:       192.168.1.6
+NetworkMask:     255.255.255.0
+IPV6Address:     
+IPV6NetworkMaskPrefixLength: 0
+HardwareAddress: d4:54:8b:5e:0e:89
+MediumType:      Ethernet
+Wireless:        Yes
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-Intel(R) Wi-Fi 6 AX200 160MHz
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list hostonlyifs
+stdout: Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            ec6f03ad-a27c-4f45-8951-0ce54ddffef5
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::d85c:a1bf:38e:d436
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:05
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list intnets
+stdout: Name:        TTP_Zoo_HOME_1
+Name:        TTP_Zoo_LAN
+Name:        TTP_Zoo_LAN_AD_LAB
+Name:        TTP_Zoo_LAN_ISOLATED
+Name:        intnet
+
+stderr: 
+Command executed: . \ V B o x M a n a g e . e x e " " m o d i f y v m " " " W A F _ p f S e n s e " " " - - n i c 5 " " i n t n e t
+stdout: 
+stderr: '.' is not recognized as an internal or external command,
+operable program or batch file.
+
+Command failed: . \ V B o x M a n a g e . e x e " " m o d i f y v m " " " W A F _ p f S e n s e " " " - - n i c 5 " " i n t n e t
+Error Output: '.' is not recognized as an internal or external command,
+operable program or batch file.
+
+Standard Output: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list vms
+stdout: "WAF_pfSense" {723113a7-0d7b-49b4-9c28-4723ba948acb}
+"kali-linux-2024.2-virtualbox-amd64" {8fd2164a-bbcd-4f35-8d09-326ba8364f6d}
+"Wazuh v4.8.1 OVA" {62953e48-4247-4d59-8667-e1c5c28eece4}
+"Parrot OS Security Edition" {3a49bf1d-d0da-48f2-8a19-6f5c30c310c5}
+"KALI-FULL" {58e3a4a6-8a89-4d3c-97ea-5a27356635ab}
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo WAF_pfSense --details
+stdout: Name:                        WAF_pfSense
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    FreeBSD (64-bit)
+UUID:                        723113a7-0d7b-49b4-9c28-4723ba948acb
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Logs
+Hardware UUID:               723113a7-0d7b-49b4-9c28-4723ba948acb
+Memory size:                 4702MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      disabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   None
+State:                       powered off (since 2024-07-28T11:11:11.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             disabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 0, Unit 0: UUID: a571c986-3025-47b1-850c-82ce8f22b4d0
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_ pfSense .vdi"
+  Port 1, Unit 0: UUID: fa22be40-f633-42ef-aeb1-d34d60b8e07b
+    Location: "C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso"
+NIC 1:                       MAC: 08002772FE70, Attachment: Bridged Interface 'Intel(R) Wi-Fi 6 AX200 160MHz', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       MAC: 080027094FD8, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 3:                       MAC: 080027E39646, Attachment: Internal Network 'TTP_Zoo_LAN_ISOLATED', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 4:                       MAC: 080027A61EEF, Attachment: Internal Network 'TTP_Zoo_LAN_AD_LAB', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 5:                       MAC: 0800277E0FF9, Attachment: Internal Network 'TTP_Zoo_HOME_1', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: STAC9700)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo kali-linux-2024.2-virtualbox-amd64 --details
+stdout: Name:                        kali-linux-2024.2-virtualbox-amd64
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Logs
+Hardware UUID:               8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Memory size:                 2048MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              2
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:10:53.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: Empty
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6c53af52-8b7b-4ba5-bbd0-80f7313bd9d7
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vdi"
+NIC 1:                       MAC: 080027D22679, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Kali Rolling (2024.2) x64
+2024-05-27
+
+- - - - - - - - - - - - - - - - - -
+
+Username: kali
+Password: kali
+(US keyboard layout)
+
+- - - - - - - - - - - - - - - - - -
+
+* Kali Homepage:
+https://www.kali.org/
+
+* Kali Documentation:
+https://www.kali.org/docs/
+
+* Kali Tools:
+https://www.kali.org/tools/
+
+* Forum/Community Support:
+https://forums.kali.org/
+
+* Community Chat:
+https://discord.kali.org
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Wazuh v4.8.1 OVA" --details
+stdout: Name:                        Wazuh v4.8.1 OVA
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Linux 2.6 / 3.x / 4.x / 5.x (64-bit)
+UUID:                        62953e48-4247-4d59-8667-e1c5c28eece4
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Logs
+Hardware UUID:               62953e48-4247-4d59-8667-e1c5c28eece4
+Memory size:                 4096MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:11:04.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 9c96245b-c351-408f-9824-471ad6a36062
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\wazuh-4.8.1-disk-1.vdi"
+#1: 'Floppy', Type: I82078, Instance: 0, Ports: 1 (max 1), Bootable
+  Port 0, Unit 0: Empty
+NIC 1:                       MAC: 080027C20B85, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: STAC9700)
+Audio playback:              disabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    disabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Wazuh helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring.
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Parrot OS Security Edition" --details
+stdout: Name:                        Parrot OS Security Edition
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian 12 Bookworm (64-bit)
+UUID:                        3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Logs
+Hardware UUID:               3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    EFI
+Number of CPUs:              4
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           enabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T10:56:50.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6ad251a2-534e-4bae-b14c-46b6f132caee, non-rotational (SSD)
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot Security 6-disk001.vdi"
+NIC 1:                       MAC: 0800270CDFF7, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             Unknown
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo KALI-FULL --details
+stdout: Name:                        KALI-FULL
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Logs
+Hardware UUID:               58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              6
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-29T17:30:28.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 3313f467-e04e-46a7-ad7c-1b83ff03fdbd
+    Location: "C:\Users\kopec\Downloads\kali-linux-2024.2-installer-everything-amd64.iso"
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 3a7f8883-50cf-47bf-91e2-2dcbfeb96db2
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vdi"
+NIC 1:                       MAC: 0800278EE0D0, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list bridgedifs
+stdout: Name:            Intel(R) Wi-Fi 6 AX200 160MHz
+GUID:            af8f8359-f8d5-4982-b030-dd59d246d39e
+DHCP:            Enabled
+IPAddress:       192.168.1.6
+NetworkMask:     255.255.255.0
+IPV6Address:     
+IPV6NetworkMaskPrefixLength: 0
+HardwareAddress: d4:54:8b:5e:0e:89
+MediumType:      Ethernet
+Wireless:        Yes
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-Intel(R) Wi-Fi 6 AX200 160MHz
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list hostonlyifs
+stdout: Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            ec6f03ad-a27c-4f45-8951-0ce54ddffef5
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::d85c:a1bf:38e:d436
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:05
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list intnets
+stdout: Name:        TTP_Zoo_HOME_1
+Name:        TTP_Zoo_LAN
+Name:        TTP_Zoo_LAN_AD_LAB
+Name:        TTP_Zoo_LAN_ISOLATED
+Name:        intnet
+
+stderr: 
+Command executed: . \ V B o x M a n a g e . e x e " " m o d i f y v m " " " W A F _ p f S e n s e " " " - - n i c 5 " " i n t n e t
+stdout: 
+stderr: '.' is not recognized as an internal or external command,
+operable program or batch file.
+
+Command failed: . \ V B o x M a n a g e . e x e " " m o d i f y v m " " " W A F _ p f S e n s e " " " - - n i c 5 " " i n t n e t
+Error Output: '.' is not recognized as an internal or external command,
+operable program or batch file.
+
+Standard Output: 
+Command executed: C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list vms
+stdout: 
+stderr: 'C:\Program' is not recognized as an internal or external command,
+operable program or batch file.
+
+Command failed: C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list vms
+Error Output: 'C:\Program' is not recognized as an internal or external command,
+operable program or batch file.
+
+Standard Output: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list vms
+stdout: "WAF_pfSense" {723113a7-0d7b-49b4-9c28-4723ba948acb}
+"kali-linux-2024.2-virtualbox-amd64" {8fd2164a-bbcd-4f35-8d09-326ba8364f6d}
+"Wazuh v4.8.1 OVA" {62953e48-4247-4d59-8667-e1c5c28eece4}
+"Parrot OS Security Edition" {3a49bf1d-d0da-48f2-8a19-6f5c30c310c5}
+"KALI-FULL" {58e3a4a6-8a89-4d3c-97ea-5a27356635ab}
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo WAF_pfSense --details
+stdout: Name:                        WAF_pfSense
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    FreeBSD (64-bit)
+UUID:                        723113a7-0d7b-49b4-9c28-4723ba948acb
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Logs
+Hardware UUID:               723113a7-0d7b-49b4-9c28-4723ba948acb
+Memory size:                 4702MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      disabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   None
+State:                       powered off (since 2024-07-28T11:11:11.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             disabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 0, Unit 0: UUID: a571c986-3025-47b1-850c-82ce8f22b4d0
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_ pfSense .vdi"
+  Port 1, Unit 0: UUID: fa22be40-f633-42ef-aeb1-d34d60b8e07b
+    Location: "C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso"
+NIC 1:                       MAC: 08002772FE70, Attachment: Bridged Interface 'Intel(R) Wi-Fi 6 AX200 160MHz', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       MAC: 080027094FD8, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 3:                       MAC: 080027E39646, Attachment: Internal Network 'TTP_Zoo_LAN_ISOLATED', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 4:                       MAC: 080027A61EEF, Attachment: Internal Network 'TTP_Zoo_LAN_AD_LAB', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 5:                       MAC: 0800277E0FF9, Attachment: Internal Network 'TTP_Zoo_HOME_1', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: STAC9700)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo kali-linux-2024.2-virtualbox-amd64 --details
+stdout: Name:                        kali-linux-2024.2-virtualbox-amd64
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Logs
+Hardware UUID:               8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Memory size:                 2048MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              2
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:10:53.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: Empty
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6c53af52-8b7b-4ba5-bbd0-80f7313bd9d7
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vdi"
+NIC 1:                       MAC: 080027D22679, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Kali Rolling (2024.2) x64
+2024-05-27
+
+- - - - - - - - - - - - - - - - - -
+
+Username: kali
+Password: kali
+(US keyboard layout)
+
+- - - - - - - - - - - - - - - - - -
+
+* Kali Homepage:
+https://www.kali.org/
+
+* Kali Documentation:
+https://www.kali.org/docs/
+
+* Kali Tools:
+https://www.kali.org/tools/
+
+* Forum/Community Support:
+https://forums.kali.org/
+
+* Community Chat:
+https://discord.kali.org
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Wazuh v4.8.1 OVA" --details
+stdout: Name:                        Wazuh v4.8.1 OVA
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Linux 2.6 / 3.x / 4.x / 5.x (64-bit)
+UUID:                        62953e48-4247-4d59-8667-e1c5c28eece4
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Logs
+Hardware UUID:               62953e48-4247-4d59-8667-e1c5c28eece4
+Memory size:                 4096MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:11:04.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 9c96245b-c351-408f-9824-471ad6a36062
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\wazuh-4.8.1-disk-1.vdi"
+#1: 'Floppy', Type: I82078, Instance: 0, Ports: 1 (max 1), Bootable
+  Port 0, Unit 0: Empty
+NIC 1:                       MAC: 080027C20B85, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: STAC9700)
+Audio playback:              disabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    disabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Wazuh helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring.
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Parrot OS Security Edition" --details
+stdout: Name:                        Parrot OS Security Edition
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian 12 Bookworm (64-bit)
+UUID:                        3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Logs
+Hardware UUID:               3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    EFI
+Number of CPUs:              4
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           enabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T10:56:50.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6ad251a2-534e-4bae-b14c-46b6f132caee, non-rotational (SSD)
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot Security 6-disk001.vdi"
+NIC 1:                       MAC: 0800270CDFF7, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             Unknown
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo KALI-FULL --details
+stdout: Name:                        KALI-FULL
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Logs
+Hardware UUID:               58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              6
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-29T17:30:28.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 3313f467-e04e-46a7-ad7c-1b83ff03fdbd
+    Location: "C:\Users\kopec\Downloads\kali-linux-2024.2-installer-everything-amd64.iso"
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 3a7f8883-50cf-47bf-91e2-2dcbfeb96db2
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vdi"
+NIC 1:                       MAC: 0800278EE0D0, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list bridgedifs
+stdout: Name:            Intel(R) Wi-Fi 6 AX200 160MHz
+GUID:            af8f8359-f8d5-4982-b030-dd59d246d39e
+DHCP:            Enabled
+IPAddress:       192.168.1.6
+NetworkMask:     255.255.255.0
+IPV6Address:     
+IPV6NetworkMaskPrefixLength: 0
+HardwareAddress: d4:54:8b:5e:0e:89
+MediumType:      Ethernet
+Wireless:        Yes
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-Intel(R) Wi-Fi 6 AX200 160MHz
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list hostonlyifs
+stdout: Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            ec6f03ad-a27c-4f45-8951-0ce54ddffef5
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::d85c:a1bf:38e:d436
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:05
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list intnets
+stdout: Name:        TTP_Zoo_HOME_1
+Name:        TTP_Zoo_LAN
+Name:        TTP_Zoo_LAN_AD_LAB
+Name:        TTP_Zoo_LAN_ISOLATED
+Name:        intnet
+
+stderr: 
+Command executed: . \ V B o x M a n a g e . e x e " " m o d i f y v m " " " W A F _ p f S e n s e " " " - - n i c 5 " " i n t n e t
+stdout: 
+stderr: '.' is not recognized as an internal or external command,
+operable program or batch file.
+
+Command failed: . \ V B o x M a n a g e . e x e " " m o d i f y v m " " " W A F _ p f S e n s e " " " - - n i c 5 " " i n t n e t
+Error Output: '.' is not recognized as an internal or external command,
+operable program or batch file.
+
+Standard Output: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list vms
+stdout: "WAF_pfSense" {723113a7-0d7b-49b4-9c28-4723ba948acb}
+"kali-linux-2024.2-virtualbox-amd64" {8fd2164a-bbcd-4f35-8d09-326ba8364f6d}
+"Wazuh v4.8.1 OVA" {62953e48-4247-4d59-8667-e1c5c28eece4}
+"Parrot OS Security Edition" {3a49bf1d-d0da-48f2-8a19-6f5c30c310c5}
+"KALI-FULL" {58e3a4a6-8a89-4d3c-97ea-5a27356635ab}
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo WAF_pfSense --details
+stdout: Name:                        WAF_pfSense
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    FreeBSD (64-bit)
+UUID:                        723113a7-0d7b-49b4-9c28-4723ba948acb
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Logs
+Hardware UUID:               723113a7-0d7b-49b4-9c28-4723ba948acb
+Memory size:                 4702MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      disabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   None
+State:                       powered off (since 2024-07-28T11:11:11.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             disabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 0, Unit 0: UUID: a571c986-3025-47b1-850c-82ce8f22b4d0
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_ pfSense .vdi"
+  Port 1, Unit 0: UUID: fa22be40-f633-42ef-aeb1-d34d60b8e07b
+    Location: "C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso"
+NIC 1:                       MAC: 08002772FE70, Attachment: Bridged Interface 'Intel(R) Wi-Fi 6 AX200 160MHz', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       MAC: 080027094FD8, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 3:                       MAC: 080027E39646, Attachment: Internal Network 'TTP_Zoo_LAN_ISOLATED', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 4:                       MAC: 080027A61EEF, Attachment: Internal Network 'TTP_Zoo_LAN_AD_LAB', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 5:                       MAC: 0800277E0FF9, Attachment: Internal Network 'TTP_Zoo_HOME_1', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: STAC9700)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo kali-linux-2024.2-virtualbox-amd64 --details
+stdout: Name:                        kali-linux-2024.2-virtualbox-amd64
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Logs
+Hardware UUID:               8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Memory size:                 2048MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              2
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:10:53.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: Empty
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6c53af52-8b7b-4ba5-bbd0-80f7313bd9d7
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vdi"
+NIC 1:                       MAC: 080027D22679, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Kali Rolling (2024.2) x64
+2024-05-27
+
+- - - - - - - - - - - - - - - - - -
+
+Username: kali
+Password: kali
+(US keyboard layout)
+
+- - - - - - - - - - - - - - - - - -
+
+* Kali Homepage:
+https://www.kali.org/
+
+* Kali Documentation:
+https://www.kali.org/docs/
+
+* Kali Tools:
+https://www.kali.org/tools/
+
+* Forum/Community Support:
+https://forums.kali.org/
+
+* Community Chat:
+https://discord.kali.org
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Wazuh v4.8.1 OVA" --details
+stdout: Name:                        Wazuh v4.8.1 OVA
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Linux 2.6 / 3.x / 4.x / 5.x (64-bit)
+UUID:                        62953e48-4247-4d59-8667-e1c5c28eece4
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Logs
+Hardware UUID:               62953e48-4247-4d59-8667-e1c5c28eece4
+Memory size:                 4096MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:11:04.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 9c96245b-c351-408f-9824-471ad6a36062
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\wazuh-4.8.1-disk-1.vdi"
+#1: 'Floppy', Type: I82078, Instance: 0, Ports: 1 (max 1), Bootable
+  Port 0, Unit 0: Empty
+NIC 1:                       MAC: 080027C20B85, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: STAC9700)
+Audio playback:              disabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    disabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Wazuh helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring.
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Parrot OS Security Edition" --details
+stdout: Name:                        Parrot OS Security Edition
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian 12 Bookworm (64-bit)
+UUID:                        3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Logs
+Hardware UUID:               3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    EFI
+Number of CPUs:              4
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           enabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T10:56:50.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6ad251a2-534e-4bae-b14c-46b6f132caee, non-rotational (SSD)
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot Security 6-disk001.vdi"
+NIC 1:                       MAC: 0800270CDFF7, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             Unknown
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo KALI-FULL --details
+stdout: Name:                        KALI-FULL
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Logs
+Hardware UUID:               58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              6
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-29T17:30:28.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 3313f467-e04e-46a7-ad7c-1b83ff03fdbd
+    Location: "C:\Users\kopec\Downloads\kali-linux-2024.2-installer-everything-amd64.iso"
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 3a7f8883-50cf-47bf-91e2-2dcbfeb96db2
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vdi"
+NIC 1:                       MAC: 0800278EE0D0, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list bridgedifs
+stdout: Name:            Intel(R) Wi-Fi 6 AX200 160MHz
+GUID:            af8f8359-f8d5-4982-b030-dd59d246d39e
+DHCP:            Enabled
+IPAddress:       192.168.1.6
+NetworkMask:     255.255.255.0
+IPV6Address:     
+IPV6NetworkMaskPrefixLength: 0
+HardwareAddress: d4:54:8b:5e:0e:89
+MediumType:      Ethernet
+Wireless:        Yes
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-Intel(R) Wi-Fi 6 AX200 160MHz
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list hostonlyifs
+stdout: Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            ec6f03ad-a27c-4f45-8951-0ce54ddffef5
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::d85c:a1bf:38e:d436
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:05
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list intnets
+stdout: Name:        TTP_Zoo_HOME_1
+Name:        TTP_Zoo_LAN
+Name:        TTP_Zoo_LAN_AD_LAB
+Name:        TTP_Zoo_LAN_ISOLATED
+Name:        intnet
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list vms
+stdout: "WAF_pfSense" {723113a7-0d7b-49b4-9c28-4723ba948acb}
+"kali-linux-2024.2-virtualbox-amd64" {8fd2164a-bbcd-4f35-8d09-326ba8364f6d}
+"Wazuh v4.8.1 OVA" {62953e48-4247-4d59-8667-e1c5c28eece4}
+"Parrot OS Security Edition" {3a49bf1d-d0da-48f2-8a19-6f5c30c310c5}
+"KALI-FULL" {58e3a4a6-8a89-4d3c-97ea-5a27356635ab}
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo WAF_pfSense --details
+stdout: Name:                        WAF_pfSense
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    FreeBSD (64-bit)
+UUID:                        723113a7-0d7b-49b4-9c28-4723ba948acb
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Logs
+Hardware UUID:               723113a7-0d7b-49b4-9c28-4723ba948acb
+Memory size:                 4702MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      disabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   None
+State:                       powered off (since 2024-07-28T11:11:11.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             disabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 0, Unit 0: UUID: a571c986-3025-47b1-850c-82ce8f22b4d0
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_ pfSense .vdi"
+  Port 1, Unit 0: UUID: fa22be40-f633-42ef-aeb1-d34d60b8e07b
+    Location: "C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso"
+NIC 1:                       MAC: 08002772FE70, Attachment: Bridged Interface 'Intel(R) Wi-Fi 6 AX200 160MHz', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       MAC: 080027094FD8, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 3:                       MAC: 080027E39646, Attachment: Internal Network 'TTP_Zoo_LAN_ISOLATED', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 4:                       MAC: 080027A61EEF, Attachment: Internal Network 'TTP_Zoo_LAN_AD_LAB', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 5:                       MAC: 0800277E0FF9, Attachment: Internal Network 'TTP_Zoo_HOME_1', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: STAC9700)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo kali-linux-2024.2-virtualbox-amd64 --details
+stdout: Name:                        kali-linux-2024.2-virtualbox-amd64
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Logs
+Hardware UUID:               8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Memory size:                 2048MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              2
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:10:53.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: Empty
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6c53af52-8b7b-4ba5-bbd0-80f7313bd9d7
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vdi"
+NIC 1:                       MAC: 080027D22679, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Kali Rolling (2024.2) x64
+2024-05-27
+
+- - - - - - - - - - - - - - - - - -
+
+Username: kali
+Password: kali
+(US keyboard layout)
+
+- - - - - - - - - - - - - - - - - -
+
+* Kali Homepage:
+https://www.kali.org/
+
+* Kali Documentation:
+https://www.kali.org/docs/
+
+* Kali Tools:
+https://www.kali.org/tools/
+
+* Forum/Community Support:
+https://forums.kali.org/
+
+* Community Chat:
+https://discord.kali.org
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Wazuh v4.8.1 OVA" --details
+stdout: Name:                        Wazuh v4.8.1 OVA
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Linux 2.6 / 3.x / 4.x / 5.x (64-bit)
+UUID:                        62953e48-4247-4d59-8667-e1c5c28eece4
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Logs
+Hardware UUID:               62953e48-4247-4d59-8667-e1c5c28eece4
+Memory size:                 4096MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:11:04.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 9c96245b-c351-408f-9824-471ad6a36062
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\wazuh-4.8.1-disk-1.vdi"
+#1: 'Floppy', Type: I82078, Instance: 0, Ports: 1 (max 1), Bootable
+  Port 0, Unit 0: Empty
+NIC 1:                       MAC: 080027C20B85, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: STAC9700)
+Audio playback:              disabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    disabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Wazuh helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring.
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Parrot OS Security Edition" --details
+stdout: Name:                        Parrot OS Security Edition
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian 12 Bookworm (64-bit)
+UUID:                        3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Logs
+Hardware UUID:               3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    EFI
+Number of CPUs:              4
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           enabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T10:56:50.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6ad251a2-534e-4bae-b14c-46b6f132caee, non-rotational (SSD)
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot Security 6-disk001.vdi"
+NIC 1:                       MAC: 0800270CDFF7, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             Unknown
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo KALI-FULL --details
+stdout: Name:                        KALI-FULL
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Logs
+Hardware UUID:               58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              6
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-29T17:30:28.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 3313f467-e04e-46a7-ad7c-1b83ff03fdbd
+    Location: "C:\Users\kopec\Downloads\kali-linux-2024.2-installer-everything-amd64.iso"
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 3a7f8883-50cf-47bf-91e2-2dcbfeb96db2
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vdi"
+NIC 1:                       MAC: 0800278EE0D0, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list bridgedifs
+stdout: Name:            Intel(R) Wi-Fi 6 AX200 160MHz
+GUID:            af8f8359-f8d5-4982-b030-dd59d246d39e
+DHCP:            Enabled
+IPAddress:       192.168.1.6
+NetworkMask:     255.255.255.0
+IPV6Address:     
+IPV6NetworkMaskPrefixLength: 0
+HardwareAddress: d4:54:8b:5e:0e:89
+MediumType:      Ethernet
+Wireless:        Yes
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-Intel(R) Wi-Fi 6 AX200 160MHz
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list hostonlyifs
+stdout: Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            ec6f03ad-a27c-4f45-8951-0ce54ddffef5
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::d85c:a1bf:38e:d436
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:05
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list intnets
+stdout: Name:        TTP_Zoo_HOME_1
+Name:        TTP_Zoo_LAN
+Name:        TTP_Zoo_LAN_AD_LAB
+Name:        TTP_Zoo_LAN_ISOLATED
+Name:        intnet
+
+stderr: 
+Unexpected error: [WinError 2] The system cannot find the file specified
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list vms
+stdout: "WAF_pfSense" {723113a7-0d7b-49b4-9c28-4723ba948acb}
+"kali-linux-2024.2-virtualbox-amd64" {8fd2164a-bbcd-4f35-8d09-326ba8364f6d}
+"Wazuh v4.8.1 OVA" {62953e48-4247-4d59-8667-e1c5c28eece4}
+"Parrot OS Security Edition" {3a49bf1d-d0da-48f2-8a19-6f5c30c310c5}
+"KALI-FULL" {58e3a4a6-8a89-4d3c-97ea-5a27356635ab}
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo WAF_pfSense --details
+stdout: Name:                        WAF_pfSense
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    FreeBSD (64-bit)
+UUID:                        723113a7-0d7b-49b4-9c28-4723ba948acb
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\Logs
+Hardware UUID:               723113a7-0d7b-49b4-9c28-4723ba948acb
+Memory size:                 4702MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      disabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   None
+State:                       powered off (since 2024-07-28T11:11:11.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             disabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 0, Unit 0: UUID: a571c986-3025-47b1-850c-82ce8f22b4d0
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_ pfSense .vdi"
+  Port 1, Unit 0: UUID: fa22be40-f633-42ef-aeb1-d34d60b8e07b
+    Location: "C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso"
+NIC 1:                       MAC: 08002772FE70, Attachment: Bridged Interface 'Intel(R) Wi-Fi 6 AX200 160MHz', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       MAC: 080027094FD8, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 3:                       MAC: 080027E39646, Attachment: Internal Network 'TTP_Zoo_LAN_ISOLATED', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 4:                       MAC: 080027A61EEF, Attachment: Internal Network 'TTP_Zoo_LAN_AD_LAB', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 5:                       MAC: 0800277E0FF9, Attachment: Internal Network 'TTP_Zoo_HOME_1', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: STAC9700)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\WAF_ pfSense_\WAF_pfSense-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo kali-linux-2024.2-virtualbox-amd64 --details
+stdout: Name:                        kali-linux-2024.2-virtualbox-amd64
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\Logs
+Hardware UUID:               8fd2164a-bbcd-4f35-8d09-326ba8364f6d
+Memory size:                 2048MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              2
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:10:53.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: Empty
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6c53af52-8b7b-4ba5-bbd0-80f7313bd9d7
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64.vdi"
+NIC 1:                       MAC: 080027D22679, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: DirectSound, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\kali-linux\kali-linux-2024.2-virtualbox-amd64-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Kali Rolling (2024.2) x64
+2024-05-27
+
+- - - - - - - - - - - - - - - - - -
+
+Username: kali
+Password: kali
+(US keyboard layout)
+
+- - - - - - - - - - - - - - - - - -
+
+* Kali Homepage:
+https://www.kali.org/
+
+* Kali Documentation:
+https://www.kali.org/docs/
+
+* Kali Tools:
+https://www.kali.org/tools/
+
+* Forum/Community Support:
+https://forums.kali.org/
+
+* Community Chat:
+https://discord.kali.org
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Wazuh v4.8.1 OVA" --details
+stdout: Name:                        Wazuh v4.8.1 OVA
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Linux 2.6 / 3.x / 4.x / 5.x (64-bit)
+UUID:                        62953e48-4247-4d59-8667-e1c5c28eece4
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Logs
+Hardware UUID:               62953e48-4247-4d59-8667-e1c5c28eece4
+Memory size:                 4096MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              1
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               HardDisk
+Boot Device 2:               DVD
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA.nvram
+RTC:                         local time
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T11:11:04.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 9c96245b-c351-408f-9824-471ad6a36062
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\wazuh-4.8.1-disk-1.vdi"
+#1: 'Floppy', Type: I82078, Instance: 0, Ports: 1 (max 1), Bootable
+  Port 0, Unit 0: Empty
+NIC 1:                       MAC: 080027C20B85, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             PS/2 Mouse
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: STAC9700)
+Audio playback:              disabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    disabled
+EHCI USB:                    disabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Wazuh v4.8.1 OVA\Wazuh v4.8.1 OVA-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+Description:
+Wazuh helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring.
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo "Parrot OS Security Edition" --details
+stdout: Name:                        Parrot OS Security Edition
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian 12 Bookworm (64-bit)
+UUID:                        3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Logs
+Hardware UUID:               3a49bf1d-d0da-48f2-8a19-6f5c30c310c5
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    EFI
+Number of CPUs:              4
+PAE:                         enabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           enabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-28T10:56:50.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 6ad251a2-534e-4bae-b14c-46b6f132caee, non-rotational (SSD)
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot Security 6-disk001.vdi"
+NIC 1:                       MAC: 0800270CDFF7, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             Unknown
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              Bidirectional
+Drag and drop Mode:          Bidirectional
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\Parrot OS Security Edition\Parrot OS Security Edition-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showvminfo KALI-FULL --details
+stdout: Name:                        KALI-FULL
+Encryption:                  disabled
+Groups:                      /
+Guest OS:                    Debian (64-bit)
+UUID:                        58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Config file:                 C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vbox
+Snapshot folder:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Snapshots
+Log folder:                  C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\Logs
+Hardware UUID:               58e3a4a6-8a89-4d3c-97ea-5a27356635ab
+Memory size:                 8192MB
+Page Fusion:                 disabled
+VRAM size:                   128MB
+CPU exec cap:                100%
+HPET:                        disabled
+CPUProfile:                  host
+Chipset:                     piix3
+Firmware:                    BIOS
+Number of CPUs:              6
+PAE:                         disabled
+Long Mode:                   enabled
+Triple Fault Reset:          disabled
+APIC:                        enabled
+X2APIC:                      enabled
+Nested VT-x/AMD-V:           disabled
+CPUID Portability Level:     0
+CPUID overrides:             None
+Boot menu mode:              message and menu
+Boot Device 1:               DVD
+Boot Device 2:               HardDisk
+Boot Device 3:               Not Assigned
+Boot Device 4:               Not Assigned
+ACPI:                        enabled
+IOAPIC:                      enabled
+BIOS APIC mode:              APIC
+Time offset:                 0ms
+BIOS NVRAM File:             C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.nvram
+RTC:                         UTC
+Hardware Virtualization:     enabled
+Nested Paging:               enabled
+Large Pages:                 enabled
+VT-x VPID:                   enabled
+VT-x Unrestricted Exec.:     enabled
+AMD-V Virt. Vmsave/Vmload:   enabled
+IOMMU:                       None
+Paravirt. Provider:          Default
+Effective Paravirt. Prov.:   KVM
+State:                       powered off (since 2024-07-29T17:30:28.000000000)
+Graphics Controller:         VMSVGA
+Monitor count:               1
+3D Acceleration:             enabled
+2D Video Acceleration:       disabled
+Teleporter Enabled:          disabled
+Teleporter Port:             0
+Teleporter Address:          
+Teleporter Password:         
+Tracing Enabled:             disabled
+Allow Tracing to Access VM:  disabled
+Tracing Configuration:       
+Autostart Enabled:           disabled
+Autostart Delay:             0
+Default Frontend:            
+VM process priority:         default
+Storage Controllers:
+#0: 'IDE', Type: PIIX4, Instance: 0, Ports: 2 (max 2), Bootable
+  Port 1, Unit 0: UUID: 3313f467-e04e-46a7-ad7c-1b83ff03fdbd
+    Location: "C:\Users\kopec\Downloads\kali-linux-2024.2-installer-everything-amd64.iso"
+#1: 'SATA', Type: IntelAhci, Instance: 0, Ports: 1 (max 30), Bootable
+  Port 0, Unit 0: UUID: 3a7f8883-50cf-47bf-91e2-2dcbfeb96db2
+    Location: "C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL.vdi"
+NIC 1:                       MAC: 0800278EE0D0, Attachment: Internal Network 'TTP_Zoo_LAN', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:                       disabled
+NIC 3:                       disabled
+NIC 4:                       disabled
+NIC 5:                       disabled
+NIC 6:                       disabled
+NIC 7:                       disabled
+NIC 8:                       disabled
+Pointing Device:             USB Tablet
+Keyboard Device:             PS/2 Keyboard
+UART 1:                      disabled
+UART 2:                      disabled
+UART 3:                      disabled
+UART 4:                      disabled
+LPT 1:                       disabled
+LPT 2:                       disabled
+Audio:                       enabled (Driver: Default, Controller: AC97, Codec: AD1980)
+Audio playback:              enabled
+Audio capture:               disabled
+Clipboard Mode:              disabled
+Drag and drop Mode:          disabled
+VRDE:                        disabled
+OHCI USB:                    enabled
+EHCI USB:                    enabled
+xHCI USB:                    disabled
+USB Device Filters:          <none>
+Bandwidth groups:            <none>
+Shared folders:              <none>
+Recording enabled:           no
+Recording screens:           1
+ Screen 0:
+    Enabled:                 yes
+    ID:                      0
+    Record video:            yes
+    Record audio:            no
+    Destination:             File
+    File:                    C:\Users\kopec\Documents\CyberSecurity Home Lab\KALI-FULL\KALI-FULL-screen0.webm
+    Options:                 vc_enabled=true,ac_enabled=false,ac_profile=med
+    Video dimensions:        1024x768
+    Video rate:              512kbps
+    Video FPS:               25fps
+* Guest:
+Configured memory balloon:   0MB
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list bridgedifs
+stdout: Name:            Intel(R) Wi-Fi 6 AX200 160MHz
+GUID:            af8f8359-f8d5-4982-b030-dd59d246d39e
+DHCP:            Enabled
+IPAddress:       192.168.1.6
+NetworkMask:     255.255.255.0
+IPV6Address:     
+IPV6NetworkMaskPrefixLength: 0
+HardwareAddress: d4:54:8b:5e:0e:89
+MediumType:      Ethernet
+Wireless:        Yes
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-Intel(R) Wi-Fi 6 AX200 160MHz
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list hostonlyifs
+stdout: Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            ec6f03ad-a27c-4f45-8951-0ce54ddffef5
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::d85c:a1bf:38e:d436
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:05
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+
+stderr: 
+Command executed: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list intnets
+stdout: Name:        TTP_Zoo_HOME_1
+Name:        TTP_Zoo_LAN
+Name:        TTP_Zoo_LAN_AD_LAB
+Name:        TTP_Zoo_LAN_ISOLATED
+Name:        intnet
+
+stderr: 
+Unexpected error: [WinError 2] The system cannot find the file specified
+Unexpected error: name 'command_str' is not defined
